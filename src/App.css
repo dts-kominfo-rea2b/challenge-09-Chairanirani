@@ -1,4 +1,51 @@
 .App {
+  /* text-align: center; */
+  display: grid;
+  background-color: #3f2b96;
+  
+  /* margin: auto; */
+}
+
+.title , .subtitle {
   text-align: center;
-  display: flex;
+  color: #fff;
+}
+
+h3 {
+  text-align: center;
+  
+}
+
+hr {
+  border-top: 4px dashed white;
+  width: 50%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  /* transition: 0.3s; */
+  width: 30%;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  padding: 10px;
+  background-color: #a8c0ff;
+}
+
+.card > div {
+  padding: 20px;
+  font-size: 15px;
+}
+
+img {
+  width: 80%;
+  border-radius: 50%;
+}
+
+.itemPhoto{
+  grid-row: 1 / span 2;
 }
